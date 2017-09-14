@@ -57,9 +57,9 @@ where *bottom_start* is the Y-size of the original image passed to the function 
 
 * Testing the videos
 
-After verifying the pipeline on the test images I included ***proc_img_pipe*** function call in the template function ***process_image*** to test it on the provided videos. The result output videos were save in the *"test_videos_output/"* directory (to be embedded after getting GitHub account)
+After verifying the pipeline on the test images I included ***proc_img_pipe*** function call in the template function ***process_image*** to test it on the provided videos. The result output videos were save in the *"test_videos_output/"* directory.
 
-As tested the Challenge video does not work with my pipeline 
+As tested the Challenge video does not work with my pipeline. I wish I have more time working on it. 
 
 
 #### 2. Potential shortcomings with my pipeline
