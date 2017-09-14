@@ -16,7 +16,11 @@ In the project directory you can find [Writeup](CarND_writeup_P1.md) document ex
 * [README.MD](README.MD) - this file
 * [CarND_writeup_P1.md](CarND_writeup_P1.md) ([.html](CarND_writeup_P1.html), [.ipynb](CarND_writeup_P1.ipynb)) - project writeup
 * [P1.md](P1.md) ([.html](P1.html), [.ipynb](P1.ipynb)) - the actual project code with the solution
-* 
+* *test_images/* - folder with the images to be tested
+* *test_images_output/* - folder with output images after processing
+* *test_videos/* - folder with videos to be tested
+* *test_videos_output/* - folder with output videos after processing
+
 
 
 ```python
