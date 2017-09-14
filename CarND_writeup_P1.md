@@ -31,7 +31,6 @@ The below are tested images with the lines after processing:
 
 ![Processed Images](files/P1_18_1.png)
 
-
 * Modification of the **draw_lines()** function
 
 Extending the lines on the image in the ***draw_lines()*** function required an additional effort and was challenging. After several attempts I choosed to simple extrapolation of the lines to the bottom of the image using line slope m = ((y2-y1)/(x2-x1)) and the end points of source lines. The result code looks like following:
@@ -66,12 +65,14 @@ As tested the Challenge video does not work with my pipeline. I wish I have more
 
 My pipeline has few shortcomings.
 
-First it does not work with the challenge video and it required additional effort and time to figure out how to fix the issues. 
+First, it does not work with the challenge video and it required additional effort and time to figure out how to fix the issues. 
 
-Second my extrapolation of the line is very rough and requires some more processing like averaging and filtering.
+Second, my extrapolation of the line is very rough and requires some more processing like averaging and filtering.
 
 #### 3. Possible improvements to my pipeline
 
 Possible improvement to my pipeline would be adding averaging and filtering in the ***draw_lines()*** function
 
 Potencial improvement would be making modification to solve the challenge video issues. I guess the camera on the vehicle was a little off but have no idea how to approach that in the software. Maybe redefining the regeon in run-time could fix it but it sounds too soficticated to implement.
+
+Thanks [Udacity](https://www.udacity.com) for the exciting project and sorry for my mess - I will try to do better next time. I got the concept. Let's move forward.

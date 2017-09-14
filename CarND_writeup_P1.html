@@ -11809,6 +11809,14 @@ div#notebook {
 <p>First I tested the pipeline process on the provided test images. I put the image filenames in a list to read them in a loop and simulate the pipeline. In the loop I was reading a image  from file and called a function <strong><em>proc_img_pipe</em></strong> to process the image.
 In the function I grayscaled the image and applied Gaussian filter to smooth the image. Then I detected the edges of the objects by applying Canny agrorithm. In order to isolate the lane lines on the road I mask out a region of interest by defining vertices that form a poligon mask on the image. I used the resulting masked image as an input for Hough transform that gave me an image of the lane lines as an output. The I blended the lines with the original image and save the result image as file in the output directory.</p>
 <p>The below are tested images with the lines after processing:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p><img src="P1_18_1.png" alt="Processed Images"></p>
 
 </div>
@@ -11860,8 +11868,8 @@ In the function I grayscaled the image and applied Gaussian filter to smooth the
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="2.-Potential-shortcomings-with-my-pipeline">2. Potential shortcomings with my pipeline<a class="anchor-link" href="#2.-Potential-shortcomings-with-my-pipeline">&#182;</a></h4><p>My pipeline has few shortcomings.</p>
-<p>First it does not work with the challenge video and it required additional effort and time to figure out how to fix the issues.</p>
-<p>Second my extrapolation of the line is very rough and requires some more processing like averaging and filtering.</p>
+<p>First, it does not work with the challenge video and it required additional effort and time to figure out how to fix the issues.</p>
+<p>Second, my extrapolation of the line is very rough and requires some more processing like averaging and filtering.</p>
 
 </div>
 </div>
@@ -11872,6 +11880,7 @@ In the function I grayscaled the image and applied Gaussian filter to smooth the
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="3.-Possible-improvements-to-my-pipeline">3. Possible improvements to my pipeline<a class="anchor-link" href="#3.-Possible-improvements-to-my-pipeline">&#182;</a></h4><p>Possible improvement to my pipeline would be adding averaging and filtering in the <strong><em>draw_lines()</em></strong> function</p>
 <p>Potencial improvement would be making modification to solve the challenge video issues. I guess the camera on the vehicle was a little off but have no idea how to approach that in the software. Maybe redefining the regeon in run-time could fix it but it sounds too soficticated to implement.</p>
+<p>Thanks <a href="https://www.udacity.com">Udacity</a> for the exciting project and sorry for my mess - I will try to do better next time. I got the concept. Let's move forward.</p>
 
 </div>
 </div>
