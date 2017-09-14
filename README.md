@@ -15,7 +15,7 @@ In the project directory you can find [Writeup](CarND_writeup_P1.md) document ex
 
 * [README.MD](README.MD) - this file
 * [CarND_writeup_P1.md](CarND_writeup_P1.md) ([.html](CarND_writeup_P1.html), [.ipynb](CarND_writeup_P1.ipynb)) - project writeup
-* [P1.md] ([.html](P1.html), [.ipynb](P1.ipynb)) - the actual project code with the solution
+* [P1.md](P1.md) ([.html](P1.html), [.ipynb](P1.ipynb)) - the actual project code with the solution
 * 
 
 
