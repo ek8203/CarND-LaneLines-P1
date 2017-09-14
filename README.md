@@ -1,10 +1,7 @@
 
 # **Project 1: Finding Lane Lines on the Road** 
 
-
-```python
-
-```
+<img style="float: left;" src="examples/laneLines_thirdPass.jpg" width="480"  height="270" alt="Combined Image" style="max-width:100%;">
 
 ### **Overview**
 
@@ -14,7 +11,7 @@ In this project we automatically detect lane lines in images using [Python](http
 
 In the project directory you can find [Writeup](CarND_writeup_P1.html) document explaining the solution.  
 
-#### Project directory content:
+### Project directory content:
 
 * [README.MD](README.MD) - this file
 * [CarND_writeup_P1.md](CarND_writeup_P1.md) ([.html](CarND_writeup_P1.html), [.ipynb](CarND_writeup_P1.ipynb)) - project writeup
