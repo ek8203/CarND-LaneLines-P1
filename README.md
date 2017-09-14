@@ -22,4 +22,4 @@ In the project directory you can find [Writeup](https://github.com/ek8203/CarND-
 * *test_videos_output/* - folder with output videos after processing
 
 
-** *NOTE:* ** Some HTML files and videos should downloaded before reading/playing
+** *NOTE:* ** HTML files and videos should be downloaded or **git clone** [the project repository on GitHub](https://github.com/ek8203/CarND-LaneLines-P1) before reading/playing
