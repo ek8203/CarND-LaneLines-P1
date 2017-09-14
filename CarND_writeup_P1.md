@@ -29,7 +29,8 @@ In the function I grayscaled the image and applied Gaussian filter to smooth the
 
 The below are tested images with the lines after processing:
 
-![image.png](attachment:image.png)
+![Processed Images](files/P1_18_1.png)
+
 
 * Modification of the **draw_lines()** function
 
